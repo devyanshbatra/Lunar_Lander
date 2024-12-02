@@ -4,4 +4,4 @@ The DQN employs a neural network to approximate the Q-value function, mapping st
 
 The agent interacts with the environment in a training loop of up to 2,000 episodes, using an ε-greedy policy to balance exploration and exploitation. Initially, the agent explores heavily (ε = 1.0), with exploration decaying over time to focus on exploitation (ε = 0.01). The training process involves optimizing the neural network using the Bellman equation, where Q-values are updated based on rewards and discounted future values.
 
-The goal is to achieve an average score of 200 over the last 100 episodes, indicating the agent can reliably land the module. Once solved, the model is saved for future use. Additionally, the code renders and saves a
+The goal is to achieve an average score of 200 over the last 100 episodes,
